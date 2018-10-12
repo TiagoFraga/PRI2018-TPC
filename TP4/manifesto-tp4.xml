@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifesto>
+    <meta>
+        <id>PRI2018:A74092::TP4</id>
+        <titulo>Servidor Web para Arquivo de Música Digital</titulo>
+        <subtitulo>TP4</subtitulo>
+        <dinicio>8 de Outubro de 2018</dinicio>
+        <dfim>15 de Outubro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <elemento>
+            <id>A74092</id>
+            <nome>Tiago Miguel Fraga Santos</nome>
+            <email>a74092@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/tiago.fraga.54</website>
+            <foto path="me.jpeg"/>
+        </elemento>
+    </equipa>
+    <resumo>
+        <para>
+           O trabalho proposto faz parte da serie de trabalhos para casa da unidade curricular de <b>Processamento e Representação da Informação</b> inserida no perfil de 
+           <i>Processamento de Linguagens e Conhecimento</i> do 4ºano do Mestrado Integrado em Engenharia Informática da Universidade do Minho.
+        </para>
+        <para>
+            O professor <b>José Carlos Ramalho</b> solicitou á turma que fosse feito um servidor <i>web</i> em <b>NodeJS</b> com o objeto de responder aos pedidos do <i>website</i>
+            criado na aula sobre um Arquivo de Música Digital. Portanto, quando o utilizador acede á página principal do <i>website</i> e tenta abrir o <i>link</i> de uma obra, o servidor
+            tem como função responder ao cliente o conteúdo da página html dessa mesma obra.
+        </para>
+        <para>
+            No capitulo a seguir é possivel ver o conjunto de ficheiros pedidos para a realização deste trabalho.
+        </para>
+        
+    </resumo>
+    <resultados>
+        <resultado path="website/index.html">Página principal do Arquivo de Música Digital</resultado>
+        <resultado path="server.js">Servidor de suporte ao Website em NodeJs</resultado>
+        <resultado path="amd-web.xsl">Stylesheet do Arquivo de Música Digital em XSL.</resultado>
+        <resultado path="manifesto-tp4.xml">Manifesto-TP4 em XML.</resultado>
+        <resultado path="manifesto-tp4.html">Manifesto-TP4 em HTML.</resultado>
+        
+    </resultados>
+</manifesto>

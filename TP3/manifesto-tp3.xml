@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifesto>
+    <meta>
+        <id>PRI2018:A74092::TP3</id>
+        <titulo>Transcrição do Corão para um WebSite.</titulo>
+        <subtitulo>TP3</subtitulo>
+        <dinicio>1 de Outubro de 2018</dinicio>
+        <dfim>8 de Outubro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <elemento>
+            <id>A74092</id>
+            <nome>Tiago Miguel Fraga Santos</nome>
+            <email>a74092@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/tiago.fraga.54</website>
+            <foto path="me.jpeg"/>
+        </elemento>
+    </equipa>
+    <resumo>
+        <para>
+           O trabalho proposto faz parte da serie de trabalhos para casa da unidade curricular de <b>Processamento e Representação da Informação</b> inserida no perfil de 
+           <i>Processamento de Linguagens e Conhecimento</i> do 4ºano do Mestrado Integrado em Engenharia Informática da Universidade do Minho.
+        </para>
+        <para>
+            O professor <b>José Carlos Ramalho</b> solicitou á turma que fosse feito uma transcrição do <b>Al-Corão</b>, que se encontra escrito em <b>XML</b>, para um website
+            escrito na linguagem <b>HTML</b>. Dessa forma, foi elaborada uma <i>stylesheet</i> em <b>XSL</b> de maneira a fazer a conversão de forma direta e simples.
+        </para>
+        <para>
+            No capitulo a seguir é possivel ver o conjunto de ficheiros pedidos para a realização deste trabalho.
+        </para>
+        
+    </resumo>
+    <resultados>
+        <resultado path="website/index.html">Página principal do Corão</resultado>
+        <resultado path="quran.xsl">Stylesheet do Corão em XSL.</resultado>
+        <resultado path="manifesto-tp3.xml">Manifesto-TP3 em XML.</resultado>
+        <resultado path="manifesto-tp3.html">Manifesto-TP3 em HTML.</resultado>
+        
+    </resultados>
+</manifesto>

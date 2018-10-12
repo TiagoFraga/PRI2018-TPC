@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT classe (titulo,introducao,descritivo,contexto,decisoes) >
+<!ELEMENT titulo (#PCDATA) >
+
+<!ELEMENT introducao (estado,classe_pai,codigo,nome_titulo) >
+<!ELEMENT estado (#PCDATA) >
+<!ELEMENT classe_pai (correspondencia_simples)>
+<!ELEMENT codigo (#PCDATA) >
+<!ELEMENT nome_titulo (#PCDATA) >
+
+<!ELEMENT descritivo (descricao,notas_aplicacao,exemplos,notas_exclusao,termos_indice) >
+<!ELEMENT descricao (#PCDATA) >
+<!ELEMENT notas_aplicacao (linha)* >
+<!ELEMENT exemplos (linha)* >
+<!ELEMENT notas_exclusao (linha)* >
+<!ELEMENT termos_indice (linha)* >
+
+<!ELEMENT contexto (processo, donos, intervencao, processos, legislacao) >
+
+<!ELEMENT processo (tipo,transversalidade) >
+<!ELEMENT tipo (#PCDATA) >
+<!ELEMENT transversalidade (#PCDATA) >
+<!ELEMENT donos (correspondencia_simples)* >
+<!ELEMENT intervencao (grupo)* >
+<!ELEMENT processos (grupo)* >
+<!ELEMENT legislacao (correspondencia_simples)* >
+
+<!ELEMENT decisoes (prazo,destino) >
+<!ELEMENT prazo (contagem,justificacao) >
+<!ELEMENT destino (local,justificacao) >
+<!ELEMENT local (#PCDATA) >
+<!ELEMENT contagem (dias,forma) >
+<!ELEMENT dias (#PCDATA) >
+<!ELEMENT forma (#PCDATA) >
+
+
+<!ELEMENT linha (#PCDATA) >
+
+<!ELEMENT ligacao (#PCDATA) >
+<!ATTLIST ligacao 
+                 path CDATA #REQUIRED >
+
+<!ELEMENT correspondencia_simples (ligacao,linha) >
+
+<!ELEMENT grupo (titulo_bold,correspondencia_simples*) >
+<!ELEMENT titulo_bold (#PCDATA) >
+
+<!ELEMENT justificacao (correspondencia_justificacao)* >
+<!ELEMENT correspondencia_justificacao (titulo_bold,texto_justificacao)>
+<!ELEMENT texto_justificacao (#PCDATA|ligacao)* >
+
+
+
+

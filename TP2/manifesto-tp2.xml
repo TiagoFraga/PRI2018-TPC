@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifesto>
+    <meta>
+        <id>PRI2018:A74092::TP2</id>
+        <titulo>Especificação de um DTD para um Processo de Negócio.</titulo>
+        <subtitulo>TP2</subtitulo>
+        <dinicio>24 de Setembro de 2018</dinicio>
+        <dfim>1 de Outubro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <elemento>
+            <id>A74092</id>
+            <nome>Tiago Miguel Fraga Santos</nome>
+            <email>a74092@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/tiago.fraga.54</website>
+            <foto path="me.jpeg"/>
+        </elemento>
+    </equipa>
+    <resumo>
+        <para>
+            O <b>XML</b> gerado a partir do <b>DTD</b> (<i>Document Type Definition</i>) juntamente com o potente processamento via <b>XSLT</b> fornece enormes facilidades
+            no campo do tratamento da informação, padronizando métodos do mesmo num formato standard auxiliando assim o crescimento desta tecnologia no meio empresarial.
+        </para>
+        <para>
+            Este trabalho é composto por um DTD sobre a página web (<b>http://clav.dglab.gov.pt/classes/consultar/c150.20.404</b>) sobre um processo de negócio, uma <i>stylesheet</i>, uma página
+            <i>html</i> que é gerada a partir da aplicação do referido <i>stylesheet</i> ao ficheiro xml que tambem está contido no conjunto de resultados pretendidos.
+        </para>
+        
+    </resumo>
+    <resultados>
+        <resultado path="pn.dtd">DTD para o processo de negócio.</resultado>
+        <resultado path="manifesto.xsl">Stylesheet do TP2 em XSL.</resultado>
+        <resultado path="manifesto-tp2.xml">Manifesto-TP2 em XML.</resultado>
+        <resultado path="manifesto-tp2.html">Manifesto-TP2 em HTML.</resultado>
+        
+    </resultados>
+</manifesto>
