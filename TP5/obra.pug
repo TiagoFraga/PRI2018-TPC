@@ -1,0 +1,44 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-light-grey
+                h2= ob.titulo
+            .w3-container
+                table.w3-table.w3-all
+                    tr
+                        th Título
+                        td= ob.titulo
+                    tr
+                        if ob.subtitulo
+                            th Subtítulo
+                            td= ob.subtitulo
+                    tr
+                        th Tipo
+                        td= ob.tipo
+                    tr
+                        th Compositor 
+                        td= ob.compositor
+                    tr
+                        if ob.arranjo
+                            th Arranjo
+                            td= ob.arranjo
+                    tr 
+                        th Instrumentos   
+                        td
+                            ul.w3-ul 
+                                each i in ob.instrumentos
+                                    li 
+                                        table.w3-table.w3-all
+                                            tr
+                                                th Nome
+                                                td= i.nome
+                                            tr
+                                                th Partitura
+                                                td= i.partitura.path
+            footer.w3-container.w3-light-grey
+                p
+                    a(href='http://localhost:5000/index')
+                        | Voltar à Página Principal
+                address Gerado por AMDapp by tmf. 

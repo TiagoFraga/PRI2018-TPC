@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifesto>
+    <meta>
+        <id>PRI2018:A74092::TP5</id>
+        <titulo>Servidor Web para Arquivo de Música Digital - JSON</titulo>
+        <subtitulo>TP5</subtitulo>
+        <dinicio>15 de Outubro de 2018</dinicio>
+        <dfim>22 de Outubro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <elemento>
+            <id>A74092</id>
+            <nome>Tiago Miguel Fraga Santos</nome>
+            <email>a74092@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/tiago.fraga.54</website>
+            <foto path="me.jpeg"/>
+        </elemento>
+    </equipa>
+    <resumo>
+        <para>
+           O trabalho proposto faz parte da serie de trabalhos para casa da unidade curricular de <b>Processamento e Representação da Informação</b> inserida no perfil de 
+           <i>Processamento de Linguagens e Conhecimento</i> do 4ºano do Mestrado Integrado em Engenharia Informática da Universidade do Minho.
+        </para>
+        <para>
+            Para o presente trabalho de casa, foi proposto pelo professor a realização de um servidor que suporta-se pedidos de um browser sobre o Arquivo de Música Digital.
+            O servidor tem de responder com o formato correto em html depois de, processar a informação dos ficheiros de musica no formato JSON, e embeleza-los com linguagem
+            CSS.
+        </para>       
+    </resumo>
+    <resultados>
+        <resultado path="https://github.com/TiagoFraga/PRI2018-TPC">GITHUB de Tpc's de PRI</resultado>
+    </resultados>
+</manifesto>
