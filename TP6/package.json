@@ -1,0 +1,16 @@
+{
+  "name": "tp6",
+  "version": "1.0.0",
+  "description": "Trabalho de casa numero6 de PRI.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "tmf",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "pug": "^2.0.3"
+  }
+}
