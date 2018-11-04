@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifesto>
+    <meta>
+        <id>PRI2018:A74092::TP7</id>
+        <titulo>Servidor Web para Registo de Ficheiros (Single-Page)</titulo>
+        <subtitulo>TP7</subtitulo>
+        <dinicio>29 de Outubro de 2018</dinicio>
+        <dfim>5 de Novembro de 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <elemento>
+            <id>A74092</id>
+            <nome>Tiago Miguel Fraga Santos</nome>
+            <email>a74092@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/tiago.fraga.54</website>
+            <foto path="me.jpeg"/>
+        </elemento>
+    </equipa>
+    <resumo>
+        <para>
+           O trabalho proposto faz parte da serie de trabalhos para casa da unidade curricular de <b>Processamento e Representação da Informação</b> inserida no perfil de 
+           <i>Processamento de Linguagens e Conhecimento</i> do 4ºano do Mestrado Integrado em Engenharia Informática da Universidade do Minho.
+        </para>
+        <para>
+            Para o presente trabalho de casa, foi proposto pelo professor a realização de um servidor que suporta-se pedidos de um browser com o intuito de registar ficheiros.
+            Ao aceder á pagina inicial, o utilzador tem a opção de registar um novo ficheiro com uma descrição, bem como, visualizar a lista de ficheiros recebidos até ao momento
+            e guardados na base de dados.
+            A página está sobre estilo CSS.
+        </para>       
+    </resumo>
+    <resultados>
+        <resultado path="https://github.com/TiagoFraga/PRI2018-TPC">GITHUB de Tpc's de PRI</resultado>
+    </resultados>
+</manifesto>
