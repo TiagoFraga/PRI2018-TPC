@@ -1,0 +1,22 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Upload de um ficheiro
+            .w3-container
+                form.w3-container(id='fileForm')
+                    fieldset
+                        legend Novo Ficheiro
+                        label.w3-text-teal
+                            b Ficheiro
+                        input.w3-input.w3-border.w3-light-grey(type='file',id='fich',name='ficheiro')
+                        label.w3-text-teal
+                            b Descricao
+                        input.w3-input.w3-border.w3-light-grey(id='desc', name='descricao')
+                        button.w3-button.w3-round-large.w3-teal(id='adicionar') Adicionar Ficheiro
+    .w3-container
+        .w3-card-4
+            table.w3-table-all(id='tabela')
+        footer.w3-container.w3-teal
+            address Gerado por AjaxFileFormApp by tmf
